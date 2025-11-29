@@ -17,7 +17,7 @@ public class RepositorioInseminacaoStub {
         LocalDate dataAtual = LocalDate.now();
         LocalDate data = LocalDate.parse(inseminacao.getData(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
-        if(!data.isAfter(dataAtual) && !inseminacao.getSemen().equals("") && inseminacao.getAnimal().getSexoAnimal().equals("fêmea")) {
+        if(!data.isAfter(dataAtual) && !inseminacao.getSemen().equals("") && inseminacao.getAnimal().getSexoAnimal().equals("femea")) {
             return inseminaçõesCadastradas.add(inseminacao);
         }else{
             return false;
