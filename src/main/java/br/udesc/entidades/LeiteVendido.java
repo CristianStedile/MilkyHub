@@ -10,7 +10,6 @@ public class LeiteVendido{
     }
 
     public LeiteVendido(double leiteVendido, String data) {
-        this.id = id;
         this.leiteVendido = leiteVendido;
         this.data = data;
     }

@@ -1,5 +1,4 @@
 import br.udesc.entidades.LeiteVendido;
-import br.udesc.repositorio.RepositorioInseminacaoStub;
 import br.udesc.repositorio.RepositorioLeiteVendidoStub;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

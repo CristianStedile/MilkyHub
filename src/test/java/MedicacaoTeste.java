@@ -1,6 +1,4 @@
-import br.udesc.entidades.Animal;
 import br.udesc.entidades.Medicacao;
-import br.udesc.repositorio.RepositorioAnimalStub;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

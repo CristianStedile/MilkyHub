@@ -2,7 +2,6 @@ import br.udesc.entidades.Animal;
 import br.udesc.entidades.AplicacaoMedicacao;
 import br.udesc.entidades.Medicacao;
 import br.udesc.repositorio.RepositorioAplicacaoMedicacaoStub;
-import br.udesc.repositorio.RepositorioLeiteVendidoStub;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,6 @@
 package br.udesc.repositorio;
 
 import br.udesc.entidades.AplicacaoMedicacao;
-import br.udesc.entidades.Medicacao;
 
 import java.util.ArrayList;
 

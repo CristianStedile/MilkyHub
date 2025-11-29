@@ -1,8 +1,5 @@
-import br.udesc.entidades.Animal;
 import br.udesc.entidades.Pasto;
-import br.udesc.entidades.PesoLeite;
 import br.udesc.repositorio.RepositorioPastoStub;
-import br.udesc.repositorio.RepositorioPesoLeiteStub;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -55,10 +52,6 @@ public class PastoTeste{
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Date data = sdf.parse("25/11/2025");
 
-        //Stub
-        RepositorioPastoStub bancoDados = new RepositorioPastoStub();
-
-
         //Act
         boolean resultado = pasto.rocar(data);
 
@@ -72,10 +65,6 @@ public class PastoTeste{
         //Arrange
         Pasto pasto = new Pasto("Pasto 1", "Pioneiro");
         Date data = null;
-
-        //Stub
-        RepositorioPastoStub bancoDados = new RepositorioPastoStub();
-
 
         //Act
         boolean resultado = pasto.rocar(data);
